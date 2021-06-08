@@ -4,8 +4,62 @@
 }
 
 header {
-    text-align: center;
-    border: 1px solid #333;
-    padding: 40px 20px;
-    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: rgb(110, 196, 218);
+    height: 100px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+    border: 2px solid black;
+}
+
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid black;
+
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    max-width: 100%;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.contact li{
+    display: flex;
+    display: inline;
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+}
+
+.wrap {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.image-size{
+    max-width: 100%; height: auto;
+    max-height: 100%;
 }
