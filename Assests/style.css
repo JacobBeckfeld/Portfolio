@@ -4,9 +4,7 @@
 }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
     padding-top: 30px;
     background-image: linear-gradient(
         rgb(110, 196, 218)0%,
@@ -17,58 +15,6 @@ header {
     font-weight: 900;
 }
 
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2% 2% 2% 20%;
-    border: 2px solid black;
-    background-image: linear-gradient(
-        rgb(110, 196, 218)0%,
-        rgb(28, 93, 109) 100%
-        );
-
-}
-
-.me {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 2px solid black;
-
-}
-
-.contain{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: end;
-    height: 100%;
-    max-width: 100%;
-}
-
 .contact {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-
-.contact li{
-    display: flex;
-    display: inline;
-    position: relative;
-    margin: -4rem 0 1.5rem 0;
-    font-size: 20px;
-}
-
-.wrap {
-    width: 30%;
-    height: 100%;
-    border: 1px solid black;
-    margin: auto;
-}
-
-.image-size{
-    max-width: 100%; height: auto;
-    max-height: 100%;
+    list-style: none;
 }
