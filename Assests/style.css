@@ -15,6 +15,28 @@ header {
     font-weight: 900;
 }
 
-.contact {
+.contact{
+    float: right;
+    word-spacing: 10px;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-top: 15px ;
+    height: 100px;
+    text-align: right;
+    width: 400px;
+    border:1px solid black;
+    background-image: linear-gradient(
+        rgb(252, 249, 102)0%,
+        rgb(151, 158, 52) 100%
+        );
+}
+
+.contact h2{
+    text-decoration: underline;
+}
+
+li {
     list-style: none;
+    display:inline
+    
 }
