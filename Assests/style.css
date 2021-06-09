@@ -191,6 +191,30 @@ li {
     border-radius: 10px;
 }
 
+.contain .first:hover{
+
+    width: 600px;
+    height: 600px;
+}
+
+.contain .second:hover{
+
+    width: 600px;
+    height: 600px;
+}
+
+.contain .third:hover{
+
+    width: 600px;
+    height: 600px;
+}
+
+.contain .fourth:hover{
+
+    width: 600px;
+    height: 600px;
+}
+
 /* My footer */
 
 footer {
