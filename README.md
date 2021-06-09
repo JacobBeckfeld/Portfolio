@@ -6,3 +6,4 @@ I used both loats and flex for styling the page.
 
 https://jacobbeckfeld.github.io/Portfolio/
 
+![screenshot](homework\Portfolio\Assests\Images\Screechot_Portfolio.PNG) 
