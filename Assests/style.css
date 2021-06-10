@@ -142,7 +142,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
-    max-width: 1500px;
+    max-width: 70%;
     
 }
 
@@ -220,5 +220,42 @@ li {
 footer {
     clear: both;
     position: relative;
+}
+
+@media screen and (max-width: 992px ) {
+
+    .contain{
+        width: auto;
+    }
+
+    .contain .first .second .third .fourth{
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .contain{
+
+        width: auto;
+    }
+
+    .contain .first .second .third .fourth{
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .contain{
+
+        max-width: 40%;
+
+    }
+
+    .contain .first .second .third .fourth{
+        max-width: fit-content;
+    }
 }
 
