@@ -156,19 +156,15 @@ li {
 }
 
 .contain .first{
-    background-image: linear-gradient(
-        rgb(112, 66, 7),
-        rgb(235, 156, 53)
-        );
+    background-image: url(./Images/results_page_screenshot.png);
+    background-size: cover;
     margin: 10px;
     border-radius: 10px;
 }
 
 .contain .second{
-    background-image: linear-gradient(
-        rgb(243, 184, 194), 
-        rgb(218, 14, 109)
-    );
+    background-image: url(./Images/dnd_homepage.png);
+    background-size: cover;
     margin: 10px;
     border-radius: 10px;
 }
